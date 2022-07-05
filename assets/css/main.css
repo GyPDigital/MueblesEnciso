@@ -409,12 +409,18 @@
 		  		text-align: center;
 		  		margin-bottom: 20px;
 		  		margin-top: 20px;
+				opacity: 0.9;
+				box-shadow: 4px 4px 8px rgb(88, 88, 88);
+				border-radius: 5px;
 			}
 
 			.block-catalog > h3{
-			    font-size: 25px;
+			    font-size: 35px;
 			    padding: 8px 12px;
-			    text-shadow: 2px 2px 3px white;
+				color: white;
+				-webkit-text-stroke-color: #4b2922;
+				-webkit-text-stroke-width: 2px;
+				text-shadow: 0px 0px 20px #ffffff;
 			}
 
 			#block-catalog-item-1{
@@ -424,7 +430,7 @@
 				background-image: url("../image/catalog/closets/main.jpg");
 			}
 			#block-catalog-item-3{
-				background-image: url("../image/catalog/kitchen/main-re.jpg");
+				background-image: url("../image/catalog/kitchen/main.jpg");
 			}
 			#block-catalog-item-4{
 				background-image: url("../image/catalog/dining/main.jpg");
@@ -439,11 +445,11 @@
 				background-image: url("../image/catalog/doors/main.jpg");
 			}
 			#block-catalog-item-8{
-				background-image: url("../image/catalog/doors/main.jpg");
+				background-image: url("../image/catalog/others/main.jpg");
 			}
 
 			.block-catalog:hover{
-				opacity: 0.8;
+				opacity: 1;
 			}
 
 			.block-catalog:active{
